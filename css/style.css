@@ -1352,7 +1352,7 @@ textarea.form-control {
   .testimony-section .owl-carousel .owl-stage-outer {
     padding: 1.5em 0 2em 0;
     position: relative; }
-  .testimony-section .owl-nav {
+  /* .testimony-section .owl-nav {
     position: absolute;
     top: 100%;
     width: 100%; }
@@ -1407,7 +1407,7 @@ textarea.form-control {
       border-radius: 50%;
       background: rgba(0, 0, 0, 0.1); }
       .testimony-section .owl-dots .owl-dot.active {
-        background: #b7472a; }
+        background: #b7472a; } */
 
 .testimony-wrap {
   display: block;

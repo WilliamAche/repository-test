@@ -6,7 +6,7 @@
 			loop: true,
 			autoplay: true,
 			autoplaySpeed:1000,
-			items:2,
+			items:1,
 			margin: 30,
 			stagePadding: 10,
 			nav: true,
