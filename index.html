@@ -13,14 +13,13 @@
 
     <!--vendors styles-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/default.css" id="theme-color">
 </head>
 
-<body style="overflow-x: hidden;">
+<body>
 
     <!--navigation-->
     <section class="smart-scroll">
@@ -47,28 +46,25 @@
             </nav>
         </div>
     </section>
-
-    <!--hero header-->
-    <section class="py-7 py-md-0 bg-hero" id="home">
-        <div class="container">
-            <div class="row vh-md-100">
-                <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
-                    <h1 class="heading-black text-capitalize">Tecnologia Basada en Hechos</h1>
-                    <p class="lead py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-                        molestiae possimus dolorum ea tenetur eligendi necessitatibus temporibus ipsa! Quasi eos vero
-                        nesciunt enim omnis perspiciatis necessitatibus cum sunt labore eveniet?</p>
-                    <button class="btn btn-primary d-inline-flex flex-row align-items-center">
-                        Empieza ahora
-                        <em class="ml-2" data-feather="arrow-right"></em>
-                    </button>
-                </div>
+  <!--hero header-->
+  <section class="py-7 py-md-0 bg-hero" id="home">
+    <div class="container">
+        <div class="row vh-md-100">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+                <h1 class="heading-black text-capitalize">Tecnologia Basada en Hechos</h1>
+                <p class="lead py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                    molestiae possimus dolorum ea tenetur eligendi</p>
+                <a href="{{route('autenticacion.new-register')}}" class="btn btn-primary d-inline-flex flex-row align-items-center">
+                    Empieza ahora
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
     <!--pricing section-->
-    <section class="py-7 bg-dark section-angle top-right bottom-right testimony-section" id="pricing">
+    <section class="py-7 top-right bottom-right testimony-section" id="pricing">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mx-auto text-center">
@@ -80,7 +76,6 @@
             <div class="row pt-5 pricing-table">
                 <div class="col-md-12">
 					<div class="carousel-testimony owl-carousel">
-
 						<div class="col item">
 							<div class="card shadow-sm">
 								<svg class="bd-placeholder-img card-img-top" width="100%" height="350"
@@ -150,75 +145,9 @@
     </section>
 
 
-    <!-- features section -->
-    <section class="pt-6 pb-5" id="features">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 mx-auto text-center">
-                    <h2 class="heading-black">Caracteristicas</h2>
-                    <p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
-                        nisi
-                        commodo, tempus odio a, vestibulum nibh.</p>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-12 mx-auto ">
-                    <div class="row feature-boxes wrap-about d-flex justify-content-center">
-
-                        <div class="col-md-2">
-                            <div class="icon-box box-primary">
-                                <div class="icon-box-inner sort">
-                                    <strong class="number" data-number="56">0</strong>
-                                </div>
-                            </div>
-                            <h5>USUARIOS</h5>
-                        </div>
-
-
-                        <div class="col-md-2">
-                            <div class="icon-box box-primary">
-                                <div class="icon-box-inner sort">
-                                    <strong class="number" data-number="15">0</strong>
-                                </div>
-                            </div>
-                            <h5>PAISES</h5>
-                        </div>
-
-                        <div class="col-md-2">
-                            <div class="icon-box box-primary">
-                                <div class="icon-box-inner sort">
-                                    <strong class="number" data-number="1253">0</strong>
-                                </div>
-                            </div>
-                            <h5>TRANSACCIONES</h5>
-                        </div>
-
-                        <div class="col-md-2">
-                            <div class="icon-box box-primary">
-                                <div class="icon-box-inner sort">
-                                    <strong class="number" data-number="30">0</strong>%
-                                </div>
-                            </div>
-                            <h5>BENEFICIOS</h5>
-                        </div>
-
-                        <div class="col-md-2">
-                            <div class="icon-box box-primary">
-                                <div class="icon-box-inner sort">
-                                    <strong class="number" data-number="10">0</strong>
-                                </div>
-                            </div>
-                            <h5>CONFERENCIAS</h5>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!--faq section-->
-    <section class="py-7 section-angle bg-dark" id="faq">
+    <section class="py-7  bg-dark" id="faq">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mx-auto text-center">
@@ -263,60 +192,43 @@
         </div>
     </section>
 
-    <!--footer-->
-    <footer class="py-6">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 mr-auto">
-                    <h5>About Golden Bit</h5>
-                    <p class="text-muted">Magnis modipsae que voloratati andigen daepeditem quiate conecus aut labore.
-                        Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam explabo.</p>
-                    <ul class="list-inline social social-sm">
-                        <li class="list-inline-item">
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href=""><i class="fa fa-dribbble"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Legal</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Refund policy</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Partner</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Refer a friend</a></li>
-                        <li><a href="#">Affiliates</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Help</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Log in</a></li>
-                    </ul>
-                </div>
+  <!--footer-->
+<footer class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <h5>GOLDENBIT</h5>
+                <p class="text-muted">Se reserva el derecho de adminisión a nuestro sistema de rendimientos y eventos empresariales</p>
+              
             </div>
-            <div class="row mt-5">
-                <div class="col-12 text-muted text-center small-xl">
-                    &copy; 2019 Golden Bit - All Rights Reserved
-                </div>
+            <div class="col-sm-4">
+                <h5>GOLDENBIT.COMPANY</h5>
+                <ul class="list-inline social social-sm" style="padding-left: 21px;">
+                    <li class="list-inline-item">
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href=""><i class=" fa fa-telegram"></i></a>
+                    </li>
+                </ul> 
+            </div>
+            <div class="col-sm-2">
+                <h5>Contactanos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">soporte@goldenbit.company</a></li>
+                </ul>
             </div>
         </div>
-    </footer>
-
+        <div class="row mt-5">
+            <div class="col-12 text-muted text-center small-xl">
+                &copy; 2021 Golden Bit - All Rights Reserved
+            </div>
+        </div>
+    </div>
+</footer>
     <script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/jquery.waypoints.min.js"></script>
